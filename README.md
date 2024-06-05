@@ -17,7 +17,45 @@ To get started, follow these steps:
 - Git
 - Virtualenv or Anaconda (recommended for managing dependencies)
 
-### Clone the Repository
+## Usage
+
+To use the project, follow these steps:
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/abhinash-bhagat/self-driving-car.git
+   cd self-driving-car
+
+2. **Setup Virtual Environment**:
+   ```bash
+   conda create --name self-driving-car python=3.8
+   conda activate self-driving-car
+
+
+3. **Install Dependencies**:
+   ```bash
+   pip install -r requirements.txt
+
+
+## Directory Structure
+
+![dict-struct](https://github.com/abhinash-bhagat/self-driving-car/assets/96810040/294dda50-415a-456e-8c1e-317ad5d9bff1)
+
+
+### Additional Setup
+
+  * Download the Audacity Car Simulator from the official website.
+  * Extract and place the simulator files in the simulator directory within the project.
+  * Create a new folder in the root directory of the project called 'data'
+
+### Collecting Training Data
+
+To collect training data, run the Udacity car simulator file. This will allow you to manually drive the car in the simulator and collect images and steering angles. Click on `Training` mode and then start the record option on the top right and select 'data' folder as the path to store data and start driving. **OR YOU CAN USE THE DATA I PROVIDED.** 
+
+### Training the Model
+Run the cells in `train.ipyb` file and set the params like `epochs` according to your system's capabilities & time.
+
+### Running the Autonomous Mode
+After training the model, you can run the autonomous driving mode with `drive.py` remember to update the model's path with your model or you can use the model I have provided:
 ```bash
-git clone https://github.com/abhinash-bhagat/self-driving-car.git
-cd self-driving-car
+python drive.py
