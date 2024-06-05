@@ -44,7 +44,11 @@ To use the project, follow these steps:
 
 ### Additional Setup
 
-  * Download the Audacity Car Simulator from the official website.
+  * Download the Audacity Car Simulator from the udacity github page or below.
+    - [Windows](https://d17h27t6h515a5.cloudfront.net/topher/2016/November/5831f3a4_simulator-windows-64/simulator-windows-64.zip)
+    - [Linux](https://d17h27t6h515a5.cloudfront.net/topher/2016/November/5831f0f7_simulator-linux/simulator-linux.zip)
+    - [Mac](https://d17h27t6h515a5.cloudfront.net/topher/2016/November/5831f290_simulator-macos/simulator-macos.zip)
+
   * Extract and place the simulator files in the simulator directory within the project.
   * Create a new folder in the root directory of the project called 'data'
 
